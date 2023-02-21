@@ -1,8 +1,12 @@
 #include <stdio.h>
-/* learning to use the puts command */
+/**
+ * main - entry point
+ *
+ * return: Always 0 (success)
+ */
 int main(void)
 {
 char str[] = "\"Programming is like building a multilingual puzzle";
-puts(str);
-return(0);
+puts (str);
+return (0);
 }
